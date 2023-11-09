@@ -1,0 +1,86 @@
+
+/* Stili CSS per il contenitore centrale */
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Nero con 50% di opacità */
+    padding: 20px;
+    border-radius: 10px; /* Bordo arrotondato */
+    margin: 40px auto;
+    max-width: 1000px; /* Larghezza massima del contenitore */
+    color: white;
+}
+
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 18px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    float: left; /* Allinea a sinistra */
+    margin-top: 10px; /* Elimina il margine superiore predefinito */
+}
+
+.container .subtitle{
+    text-align: center;
+    color: greenyellow;
+}
+
+/* Stili CSS per il logo */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Stili CSS per la barra di navigazione e la barra verde */
+nav {
+    background-color: greenyellow;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background-color: green;
+}
+
+.orange-bar {
+    background-color: orange;
+    height: 30px;
+    margin-top: 10px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.green-bar {
+    background-color: green;
+    height: 30px;
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 10px;
+}
+.red-bar {
+    background-color: red;
+    height: 30px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
